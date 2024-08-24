@@ -62,7 +62,7 @@ strong {
 }
 
 .presentacion {
-    padding: 5% 15%; 
+    padding: 6% 8%; 
     display: flex;
     align-items: center; 
     /*margin: 10px; para separar los elementos de las esquinas con el margen, igual para untarlas mas si están muy separadas*/
@@ -152,13 +152,7 @@ footer{
 
 /*RESPONSIVIDAD A PARTIR DE CIERTO TAMAÑO*/
 
-@media  (max-width: 1023px){
-    .presentacion{
-        flex-direction: column; 
-    }
-}
-
-@media (max-width: 2000px) {
+@media (max-width: 1200px) {
 
     body{
         background-color: #242c50;
